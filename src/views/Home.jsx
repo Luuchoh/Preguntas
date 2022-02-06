@@ -1,10 +1,14 @@
 import React from "react";
+//components
+import NavbarComp from "../components/Footer/NavbarComp";
+import HomeComp from "../components/Home/HomeComp";
 
 const Home = () => {
   return (
-    <div>
-      <h1>asdasdasdashome</h1>
-    </div>
+    <>
+    <NavbarComp />
+    <HomeComp />
+    </>
   );
 };
 
